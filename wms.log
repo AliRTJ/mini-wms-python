@@ -1,0 +1,146 @@
+2026-03-14 15:18:09,877 - INFO - starting add_porduct()
+2026-03-14 15:18:10,619 - INFO - package: mysql.connector.plugins
+2026-03-14 15:18:10,620 - INFO - plugin_name: caching_sha2_password
+2026-03-14 15:18:10,620 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-14 15:18:10,622 - INFO - package: mysql.connector.plugins
+2026-03-14 15:18:10,622 - INFO - plugin_name: mysql_native_password
+2026-03-14 15:18:10,624 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-14 15:18:28,605 - INFO - Product added: Marker, quantity: 55
+2026-03-14 15:18:28,605 - INFO - add_produt completed
+2026-03-14 15:41:54,933 - INFO - package: mysql.connector.plugins
+2026-03-14 15:41:54,934 - INFO - plugin_name: caching_sha2_password
+2026-03-14 15:41:54,934 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-14 15:41:54,936 - INFO - package: mysql.connector.plugins
+2026-03-14 15:41:54,936 - INFO - plugin_name: mysql_native_password
+2026-03-14 15:41:54,939 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-14 15:50:25,957 - INFO - starting add_porduct()
+2026-03-14 15:50:40,493 - INFO - Product added: Jacket, quantity: 12
+2026-03-14 15:50:40,494 - INFO - add_produt completed
+2026-03-14 15:52:47,955 - INFO - Starting Delete_product()
+2026-03-14 15:52:48,362 - INFO - package: mysql.connector.plugins
+2026-03-14 15:52:48,363 - INFO - plugin_name: caching_sha2_password
+2026-03-14 15:52:48,363 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-14 15:52:48,363 - INFO - package: mysql.connector.plugins
+2026-03-14 15:52:48,363 - INFO - plugin_name: mysql_native_password
+2026-03-14 15:52:48,365 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-14 15:52:55,186 - INFO - Product ID: 20 was deleted
+2026-03-14 15:52:55,186 - INFO - delete_product completed
+2026-03-14 15:53:36,967 - INFO - strating create_order()
+2026-03-14 15:53:43,731 - INFO - Error occurd: '<=' not supported between instances of 'int' and 'NoneType'
+2026-03-14 15:54:41,350 - INFO - strating create_order()
+2026-03-14 15:54:55,152 - INFO - order created: porduct 18,| quantity: 30
+2026-03-14 15:54:55,155 - INFO - create order completed
+2026-03-14 16:32:31,141 - INFO - starting add_porduct()
+2026-03-14 16:32:31,558 - INFO - package: mysql.connector.plugins
+2026-03-14 16:32:31,558 - INFO - plugin_name: caching_sha2_password
+2026-03-14 16:32:31,558 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-14 16:32:31,559 - INFO - package: mysql.connector.plugins
+2026-03-14 16:32:31,559 - INFO - plugin_name: mysql_native_password
+2026-03-14 16:32:31,561 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-14 16:33:01,267 - INFO - Product added: PC, quantity: 12
+2026-03-14 16:33:01,267 - INFO - add_produt completed
+2026-03-14 16:34:10,124 - INFO - strting update_product()
+2026-03-14 16:34:34,623 - INFO - product ID: 6 | quantity updated 10
+2026-03-14 16:34:34,623 - INFO - Update_product completed
+2026-03-14 16:36:07,510 - INFO - strting update_product()
+2026-03-14 16:36:13,975 - INFO - product ID: 7 | quantity updated 50
+2026-03-14 16:36:13,976 - INFO - Update_product completed
+2026-03-14 16:39:23,828 - INFO - strting update_product()
+2026-03-14 16:39:37,394 - INFO - product ID: 7 | quantity updated 1
+2026-03-14 16:39:37,394 - INFO - Update_product completed
+2026-03-14 16:40:23,268 - INFO - strting update_product()
+2026-03-14 16:40:34,642 - INFO - product ID: 7 | quantity updated 10
+2026-03-14 16:40:34,642 - INFO - Update_product completed
+2026-03-14 16:40:57,124 - INFO - starting add_porduct()
+2026-03-14 16:41:06,576 - INFO - strting update_product()
+2026-03-14 16:41:11,197 - INFO - product ID: 6 | quantity updated 1
+2026-03-14 16:41:11,197 - INFO - Update_product completed
+2026-03-14 16:41:35,035 - INFO - strting update_product()
+2026-03-14 16:41:42,506 - INFO - product ID: 1 | quantity updated 1
+2026-03-14 16:41:42,506 - INFO - Update_product completed
+2026-03-15 12:52:16,099 - INFO - package: mysql.connector.plugins
+2026-03-15 12:52:16,099 - INFO - plugin_name: caching_sha2_password
+2026-03-15 12:52:16,099 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 12:52:16,100 - INFO - package: mysql.connector.plugins
+2026-03-15 12:52:16,100 - INFO - plugin_name: mysql_native_password
+2026-03-15 12:52:16,109 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 12:53:12,886 - INFO - package: mysql.connector.plugins
+2026-03-15 12:53:12,887 - INFO - plugin_name: caching_sha2_password
+2026-03-15 12:53:12,887 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 12:53:12,887 - INFO - package: mysql.connector.plugins
+2026-03-15 12:53:12,887 - INFO - plugin_name: mysql_native_password
+2026-03-15 12:53:12,889 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:20:03,909 - INFO - Starting ship_order
+2026-03-15 13:20:06,470 - INFO - package: mysql.connector.plugins
+2026-03-15 13:20:06,470 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:20:06,471 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:20:06,471 - INFO - package: mysql.connector.plugins
+2026-03-15 13:20:06,471 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:20:06,474 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:20:15,920 - INFO - ship order: 1 was shipped
+2026-03-15 13:20:15,920 - INFO - ship_order completed
+2026-03-15 13:23:10,313 - INFO - Starting ship_order
+2026-03-15 13:23:10,680 - INFO - package: mysql.connector.plugins
+2026-03-15 13:23:10,680 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:23:10,680 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:23:10,688 - INFO - package: mysql.connector.plugins
+2026-03-15 13:23:10,688 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:23:10,690 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:24:55,433 - INFO - Starting ship_order
+2026-03-15 13:24:56,128 - INFO - package: mysql.connector.plugins
+2026-03-15 13:24:56,129 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:24:56,129 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:24:56,130 - INFO - package: mysql.connector.plugins
+2026-03-15 13:24:56,130 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:24:56,133 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:24:57,667 - INFO - ship order: 2 was shipped
+2026-03-15 13:24:57,667 - INFO - ship_order completed
+2026-03-15 13:26:33,862 - INFO - Starting ship_order
+2026-03-15 13:26:34,448 - INFO - package: mysql.connector.plugins
+2026-03-15 13:26:34,448 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:26:34,448 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:26:34,449 - INFO - package: mysql.connector.plugins
+2026-03-15 13:26:34,449 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:26:34,450 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:26:43,420 - INFO - ship order: order 3 was shipped
+2026-03-15 13:26:43,420 - INFO - ship_order completed
+2026-03-15 13:27:59,163 - INFO - Starting ship_order
+2026-03-15 13:27:59,587 - INFO - package: mysql.connector.plugins
+2026-03-15 13:27:59,587 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:27:59,587 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:27:59,587 - INFO - package: mysql.connector.plugins
+2026-03-15 13:27:59,587 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:27:59,589 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:28:02,935 - INFO - ship order: order 10 was shipped
+2026-03-15 13:28:02,935 - INFO - ship_order completed
+2026-03-15 13:56:59,450 - INFO - Starting Cancel_order
+2026-03-15 13:56:59,982 - INFO - package: mysql.connector.plugins
+2026-03-15 13:56:59,990 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:56:59,990 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:56:59,990 - INFO - package: mysql.connector.plugins
+2026-03-15 13:56:59,990 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:56:59,992 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:58:49,938 - INFO - Starting Cancel_order
+2026-03-15 13:58:50,465 - INFO - package: mysql.connector.plugins
+2026-03-15 13:58:50,465 - INFO - plugin_name: caching_sha2_password
+2026-03-15 13:58:50,466 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 13:58:50,466 - INFO - package: mysql.connector.plugins
+2026-03-15 13:58:50,466 - INFO - plugin_name: mysql_native_password
+2026-03-15 13:58:50,468 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 13:58:54,409 - INFO - Cancel order: order 5 was canceled
+2026-03-15 13:58:54,409 - INFO - order_cancel completed
+2026-03-15 14:03:52,641 - INFO - Starting Cancel_order
+2026-03-15 14:03:53,196 - INFO - package: mysql.connector.plugins
+2026-03-15 14:03:53,196 - INFO - plugin_name: caching_sha2_password
+2026-03-15 14:03:53,196 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 14:03:53,197 - INFO - package: mysql.connector.plugins
+2026-03-15 14:03:53,197 - INFO - plugin_name: mysql_native_password
+2026-03-15 14:03:53,199 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-03-15 14:04:03,046 - INFO - Cancel order: order 6 was cancelled
+2026-03-15 14:04:03,046 - INFO - order_cancel completed
+2026-03-15 19:19:15,294 - INFO - package: mysql.connector.plugins
+2026-03-15 19:19:15,294 - INFO - plugin_name: caching_sha2_password
+2026-03-15 19:19:15,294 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-03-15 19:19:15,297 - INFO - package: mysql.connector.plugins
+2026-03-15 19:19:15,297 - INFO - plugin_name: mysql_native_password
+2026-03-15 19:19:15,300 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin

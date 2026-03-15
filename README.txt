@@ -1,169 +1,198 @@
-# Mini Warehouse Management System (WMS)
+Mini Warehouse Management System (WMS) v.02
+Overview
 
-## Overview
+This project is a Python + MySQL mini Warehouse Management System designed to simulate basic warehouse operations.
 
-This project is a **Python + MySQL mini Warehouse Management System** designed to simulate basic warehouse operations.
+The system allows users to manage products, track inventory, and process customer orders while validating available stock.
 
-The system allows users to manage products, track inventory, and create customer orders while validating available stock.
+The goal of the project is to model real warehouse operational logic using programming and relational databases.
 
-The goal of the project is to model **real warehouse operational logic** using programming and databases.
+This project was built as a learning exercise while studying Python and SQL, combined with practical experience in supply chain and warehouse operations.
 
-This project was built as a learning exercise while studying **Python and SQL**, combined with practical experience in **supply chain and warehouse operations**.
+Features
+Product Management
 
----
+Add new products
 
-## Features
+View all products
 
-### Product Management
+Update product quantity
 
-* Add new products
-* View all products
-* Update product quantity
-* Delete products
+Delete products
 
-### Inventory Tracking
+Inventory Tracking
 
-* Inventory stored in MySQL database
-* Automatic quantity updates when orders are confirmed
+Inventory is stored in a MySQL database and updated automatically when orders are processed.
 
-### Order Management
+Inventory fields include:
 
-* Create new orders
-* Validate product existence
-* Check inventory availability
-* Confirm order if inventory is sufficient
-* Block order if inventory is insufficient
+on_hand
 
-### Order Status Logic
+allocated
 
-Orders can have different statuses:
+available
 
-* `CONFIRMED` → Inventory available, order accepted
-* `BLOCKED` → Not enough inventory
+This simulates real warehouse inventory allocation logic.
 
-Future improvement:
+Order Management
 
-* Partial allocation
-* Backorder logic
+The system allows users to:
 
----
+Create new orders
 
-## Tech Stack
+Validate product existence
 
-* **Python**
-* **MySQL**
-* **MySQL Connector for Python**
+Check inventory availability
 
----
+Allocate inventory automatically
 
-## Database Structure
+Generate backorders if stock is insufficient
 
-### Products Table
+Order Lifecycle
 
-Stores product inventory information.
+Orders move through different statuses:
+
+ALLOCATED → Inventory available and reserved
+BACKORDER → Insufficient inventory
+SHIPPED → Order shipped and inventory consumed
+CANCELLED → Order cancelled and inventory released
+
+Shipping and Cancellation
+
+Additional workflow functions include:
+
+Ship allocated orders
+
+Cancel orders
+
+Automatically update inventory quantities
+
+Reporting
+
+## The system includes basic operational reports:
+
+All orders report
+
+Backorder report
+
+Reports are generated using SQL JOIN queries between orders and products tables.
+
+Tech Stack
+
+Python
+MySQL
+MySQL Connector for Python
+
+Database Structure
+Products Table
+
+## Stores product inventory information.
 
 Fields:
 
-* `id`
-* `pro_name`
-* `quantity`
-* `price`
+id
+pro_name
+on_hand
+allocated
+available
+price
 
-### Orders Table
+Orders Table
 
-Stores customer order information.
+## Stores customer order information.
 
 Fields:
 
-* `order_id`
-* `product_id`
-* `quantity`
-* `status`
+order_id
+product_id
+quantity
+status
 
----
-
-## Example Order Logic
+###Example Order Allocation Logic
 
 Example scenario:
 
 Inventory:
-Product A = 100 units
+
+Product A = 100 units available
 
 Customer order:
+
 120 units
 
 System behavior:
 
-* Inventory insufficient
-* Order status set to **BLOCKED**
+Inventory insufficient
+Order status set to BACKORDER
 
 If order quantity is less than available inventory:
 
-* Inventory is reduced
-* Order status becomes **CONFIRMED**
+Inventory is allocated
+Order status becomes ALLOCATED
 
----
+Running the Project
 
-## Running the Project
+Install MySQL
 
-1. Install MySQL
-2. Install MySQL Connector
+Install MySQL Connector
 
-```bash
 pip install mysql-connector-python
-```
 
-3. Update database credentials in the code
+Update database credentials in the code
 
-```python
 host="localhost"
 user="root"
 password="root"
-```
+database="wms"
 
-4. Run the Python program
+Run the Python program
 
-```bash
 python main.py
-```
 
----
-
-## Menu Interface
+Menu Interface
 
 The program runs through a command-line interface:
 
-1. Add new product
-2. Show all products
-3. Update product quantity
-4. Delete product
-5. Add new order
-6. Show all orders
-7. Exit
+Add new product
 
----
+Show all products
 
-## Future Improvements
+Update product quantity
 
-Planned enhancements:
+Delete product
 
-* Order allocation logic
-* Backorder management
-* Inventory transaction history
-* Location management
-* Picking and shipping workflow
-* Basic reporting
+Create order
 
----
+Process backorder
 
-## Purpose of the Project
+Ship order
 
-This project was built to combine **programming with real warehouse operations**.
+Cancel order
 
-It demonstrates how inventory and order processing logic can be modeled using **Python and SQL**, similar to how real warehouse management systems operate.
+Show all orders
 
----
+Backorder report
 
-## Author
+Exit
+
+Future Improvements
+
+Possible enhancements:
+
+Inventory transaction history
+Product location management
+Picking workflow
+REST API version
+Web interface
+Dashboard reporting (Power BI / Python)
+
+Purpose of the Project
+
+This project demonstrates how warehouse operations can be modeled programmatically using Python and SQL.
+
+It combines software development with real supply chain logic, similar to how enterprise Warehouse Management Systems operate.
+
+Author
 
 Alireza Taherijam
+
